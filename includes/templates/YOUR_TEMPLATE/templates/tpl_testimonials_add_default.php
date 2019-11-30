@@ -61,7 +61,7 @@ require($define_page);
 <h2>We <i class="fa fa-heart fa-fw"></i> Feedback!</h2>
 </div>
 
-<p class="questionarea">Please select regarding which experience you want to provide feedback on.<br />Your name well appeir on reviews. Email Address well <strong>NOT</strong> be displayed on reviews.</p>
+<p class="questionarea">Please select regarding which experience you want to provide feedback on.<br />Your name will appear on reviews. Your Email Address will <strong>NOT</strong> be displayed on reviews.</p>
   
 <div class="boxcontainer">
 <div id="reviewsWriteReviewsRate"><?php echo TESTIMONIAL_GIVE_RATING; ?></div>

@@ -57,7 +57,7 @@ echo nl2br(zen_output_string_protected(stripslashes($page_check->fields['testimo
 </section>
 <br class="clearBoth" />
 
-<div class="forward"><b>Was this site feecback helpful to you? </b> &nbsp;&nbsp;
+<div class="forward"><b>Was this site feedback helpful to you? </b> &nbsp;&nbsp;
 <?php echo '<a href="' . zen_href_link(FILENAME_TESTIMONIALS_MANAGER, 'action=helpyes&testimonials_id=' . $page_check->fields['testimonials_id'], $request_type) . '"> <span class="btnreview">' . BUTTON_YES_ALT . '</span></a>&nbsp;' . (string)$page_check->fields['helpful_yes'] . '&nbsp;<a href="' . zen_href_link(FILENAME_TESTIMONIALS_MANAGER, 'action=helpno&testimonials_id=' . $page_check->fields['testimonials_id'], $request_type) . '"><span class="btnreview">' . BUTTON_NO_ALT . '</span></a>&nbsp;' . (string)$page_check->fields['helpful_no'] . '&nbsp;&nbsp;' ; ?>
 </fieldset> 
 <br class="clearBoth" />

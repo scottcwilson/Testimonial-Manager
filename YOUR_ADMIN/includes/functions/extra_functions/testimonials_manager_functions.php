@@ -151,7 +151,7 @@ if (function_exists('zen_register_admin_page')) { //set admin pages
       		tm_contact_phone VARCHAR(32) NOT NULL DEFAULT '',
       		tm_privacy_conditions TINYINT(1) NOT NULL DEFAULT 0,    		
       		status INT(1) NOT NULL DEFAULT '0',
-      		date_added DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
+      		date_added DATETIME NOT NULL DEFAULT '0001-01-01 00:00:00',
       		last_update DATETIME NULL DEFAULT NULL,
       		tm_gen_info VARCHAR(255) NOT NULL DEFAULT '',
       		helpful_yes INT(12) NOT NULL,
